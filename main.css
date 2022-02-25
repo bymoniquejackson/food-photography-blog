@@ -1,0 +1,291 @@
+body{font-family: 'Playfair Display', serif;
+}
+
+html {
+    background-image: url("images/back6.jpg");
+    background-repeat: no-repeat;
+    background-size :cover;
+    background-attachment: fixed;
+}
+
+.content {
+    max-width: 960x;
+    margin: auto;
+    padding: 150px;
+}
+
+/* HOME */
+/* NAVIGATION */
+nav.center {
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav.center a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav.center a:hover {
+    background-color: black;
+    color: black;
+}
+
+nav.center a:hover {
+    background-color: brown;
+    color: white;
+}
+
+/* SUBHEADING */
+h1.center {
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+}
+
+/* HEAD IMAGE */
+#headimage {
+    display: block;
+    width:95%;
+    margin-left: auto;
+    margin: right auto;
+
+    border: 2px solid white;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+}
+
+/* CENRAL TEXT */
+p.center{
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+}
+
+/* WHAT WOULD YOU LIKE TO EXPLORE */
+#where{
+    font-size: 20px;
+    border: 1px solid white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+
+/* BOTTOM IMAGE */
+#bottomimage {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid white;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+}
+
+
+
+/* FOODPAGE */
+div.container {
+    display:inline-block;
+}
+
+div > img{
+    
+    height:auto;
+    width:350px;
+
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+p {
+    text-align:center;
+}
+
+#foodinfo{
+    font-size: 20px;
+    border: 2px solid white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#pw {
+    font-size: 20px;
+    border: 2px solid white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+
+
+
+#cl{
+    font-size: 20px;
+    border: 2px solid white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#wh
+{
+    font-size: 20px;
+    border: 2px solid white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#cast
+{
+    font-size: 20px;
+    border: 2px solid white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#st {
+    font-size: 20px;
+    border: 2px solid white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+/* INTERIOR PAGE */
+#int{
+    font-size: 20px;
+    border: 1px solid white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+
+div.a {
+font-size: 20px;
+
+}
+
+
+/* ABOUT TDK */
+
+#whoweare{
+    font-size: 20px;
+    border: 2px solid white;
+    background-color:transparent grey ;
+    color: black;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+}
+
+/* CONTACT */
+#socials{
+    font-size: 30px;
+    border: 2px solid black;
+    background-color:transparent grey ;
+    color: black;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+
+}
+
+#platforms{
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid black; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+
+.container-form {
+    border-radius: 50px;
+    background-color: white;
+    padding: 20px;
+}
+
